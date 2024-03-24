@@ -1,0 +1,96 @@
+/* Prevent padding and border from affecting element width */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+/* Allow adding a border to an element by just adding a border-width */
+*,
+::before,
+::after {
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+/* Use a consistent sensible line-height in all browsers */
+html,
+:host {
+    line-height: 1.5;
+}
+
+/* Prevent adjustments of font size after orientation changes in iOS */
+:host {
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Use a more readable tab size */
+:host {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+
+/* Use the user's configured `sans` font-family by default */
+html,
+:host {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Disable tap highlights on iOS */
+html,
+:host {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Remove default margin and padding for certain elements */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+blockquote,
+dl,
+dd,
+figure,
+table,
+fieldset,
+legend,
+hr,
+ol,
+ul,
+li,
+menu,
+nav,
+section,
+address,
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+/* Make images and videos responsive */
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Set default font size for small elements */
+small {
+    font-size: 80%;
+}
+
+/* Reset the list style */
+ul,
+ol {
+    list-style: none;
+}
