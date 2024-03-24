@@ -1,5 +1,7 @@
 # laravel-movie-rewatchtv
 # Laravel Movie & TV Database
+ ![laravel-movies](https://github.com/artjason/artjason/assets/156570446/ba8b0891-7e5a-4bf4-a4e3-d923c14260d0)
+
 
 Welcome to the Laravel Movie & TV Database project! This project is a comprehensive database application built with Laravel, designed to manage information about movies, TV series, and actors. It leverages the power of modern frontend technologies such as Tailwind CSS, Alpine.js, and the seamless interactivity provided by Livewire.
 
